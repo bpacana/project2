@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+ 
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar {
+    margin-bottom: 5%;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+
+
+.mainContainer {
+  font-weight: bolder;
+  max-width: 660px;
+  margin: auto;
+}
+
+
+#aboutClient {
+    text-align:justify;
+}
+  
+.clientForm {
+    padding: 3%;
+    line-height: 150%;
+    border-radius: 5px;
+}
+
+.small, small {
+    font-size: 45%;
+    font-weight: 400;
+}
+
+
+#addCLient {
+    margin-top: 3%;
+    background-color: #343a3f;
+}
+
+#addCLient:hover {
+    background-color: grey;
+}
+
+.colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+hr {
+    margin: 0px;
+}
+
+
+/* =========== Admin Page ============*/
+
+#loginToView {
+    text-align: center;
+}
+
+.mainContainer2 {
+    font-weight: bolder;
+    max-width: 860px;
+    margin: auto;
+} 
+
+.TitleRule {
+    font-size: 1.5em;
+}
+
+.manageForm {  
+    padding: 2%;
+    line-height: 150%;
+    border-radius: 5px;
+}
+
+h3 {
+    font-weight: 100;
+    font-size: 1.2em;
+}
+
+table#tableBody th {
+    font-weight: 100;
+    font-size: 1.2em;
+    background-color: #343a3f;
+    color: white;
+  }
+
+table#tableBodyClient th {
+    font-weight: 100;
+    font-size: 1.2em;
+    background-color: #343a3f;
+    color: white;
+  }
+
+tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+
+table {
+    width: 100%;
+}
+
+thead, tbody, tr, td, th { display: block; }
+
+tr:after {
+    content: ' ';
+    display: block; 
+    visibility: hidden;
+    clear: both;
+}
+
+thead th {
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+
+tbody {
+    height: 280px;
+    overflow-y: auto;
+}
+
+#tableBody .tdRules, .thAdmin {
+    width: 25%;
+    float: left;
+}
+
+#tableBodyClient, .tdClient, .thClientHead { 
+    width: 16.66%;
+    float: left;
+}
+
+#tableBodyClient {
+    width: 100%;
+    height: 100px;
+}
+
+
+#btnRow {
+    width: 100%;
+}
+
+#addRule, #updateRule, #fill {
+    margin-top: 1%;
+    float: left;
+}
+
+#addRule, #updateRule {
+   background-color: #343a3f;
+}
+
+#addRule:hover, #updateRule:hover {
+    background-color: grey;
+}
+
+#updateRule {
+  margin-left: 1%;
+}
+
+#fill {
+    font-size: 1em;
+}
+
+
+.collapsible1 {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible1:hover {
+    background-color: #555;
+  }
+  
+  .ruleTablecontent {
+    border-bottom: 1px solid black;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
+
+
+#addAdmin {
+    float: right;
+}
+
+/* =========== End admin Page ============*/
+
+#phone, #mail, #location {
+    width: 33%;
+    text-align: center;
+}
+
+#contactRow {
+    margin-top: 10%;
+}
+
+
+#modalSubmit {
+    color: white;
+    background-color: #343a3f;
+}
+
+#username-form {
+    margin-top: 2%;
+}
+
+#infoDiv {
+    height: 300px;
+}
+
+#infoTitle {
+    margin-bottom: 5%;
+}
+
+#infoPage {
+   padding: 2%;
+   text-align:justify;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#copyright {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+
+

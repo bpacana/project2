@@ -1,0 +1,78 @@
+{{!-- ===================== START NAV ====================== --}}
+{{> nav }}
+
+{{!-- ===================== END NAV ====================== --}}
+
+
+<div class="mainContainer">
+
+	<h2 id="title">Contact us <small>NEXUS TOOL</small></h2>
+
+	<hr class="colorgraph">
+	<br>
+	<div>
+		<p style="text-align:center">Do you have any questions? Please do not hesitate to contact us and our team will get
+			back to you as soon as possible.</p>
+	</div>
+
+		
+	<div class="row" id="contactRow">
+	<div class="col-4" id="phone">
+		<i class="material-icons" style="font-size:36px">call</i>
+		<h6>+ 33 102 2846</h6>
+	</div>
+
+	<div class="col-4" id="mail">
+		<i class="material-icons" style="font-size:36px">email</i>
+		<h6>project2@ucla.com</h6>
+	</div>
+
+	<div class="col-4" id="location">
+		<i class="material-icons" style="font-size:36px">location_on</i>
+		<h6>1234 UCLA Ave, CA</h6>
+	</div>
+	</div>
+
+
+	<br>
+	<hr class="colorgraph">
+
+</div>
+
+<!-- START Modal For ADMIN LOGIN CHECK STATIC ADMIN JS FOR PW POST REQ-->
+<div class="modal fade" id="adminModalCenter" tabindex="-1" role="dialog" aria-labelledby="adminModalCenterTitle"
+ aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="adminModalLongTitle">Admin Login</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+
+			<form class="login">
+				<div id="username-form" class="form-group col-lg-12">
+					<label>Username</label>
+					<input id="username-input" type="text" name="user" placeholder="Username">
+					<small id="username-feedback" class=""></small>
+				</div>
+				<div id="password-form" class="form-group col-lg-12">
+					<label>Password</label>
+					<input id="password-input" type="password" name="pass" placeholder="Password">
+					<small id="password-feedback" class=""></small>
+				</div>
+				<div class="modal-footer">
+					<input type="submit" name="login" class="login loginmodal-submit" value="Login" id="modalSubmit">
+				</div>
+			</form>
+
+		</div>
+	</div>
+</div>
+
+<!-- END Modal For ADMIN LOGIN-->
+
+{{!-- ===================== START FOOTER ====================== --}}
+{{> footer }}
+{{!-- ===================== END FOOTER ====================== --}}

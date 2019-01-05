@@ -1,0 +1,24 @@
+{{#if isAuthenticated}}
+
+
+<h1>Add Administrator</h1>
+<form class="signupForm">
+	<div id="username-form" class="form-group col-lg-12">
+		<label>Username</label>
+		<input id="username-input" type="text" name="user" placeholder="Username">
+		<small id="username-feedback" class=""></small>
+	</div>
+	<div id="password-form" class="form-group col-lg-12">
+		<label>Password</label>
+		<input id="password-input" type="password" name="pass" placeholder="Password">
+		<small id="password-feedback" class=""></small>
+	</div>
+	<div class="modal-footer">
+		<input type="submit" name="signup" class="signup loginmodal-submit" value="signup">
+	</div>
+</form>
+
+{{else}}
+<h1>Please log in to view this page</h1>
+
+{{/if}}
